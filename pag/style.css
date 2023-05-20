@@ -58,34 +58,6 @@ h1 {
     font-family: 'Dancing Script', cursive;
 }
 
-.pie {
-    margin-left: 170px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    'area1 area2 area3'
-    'area4 area5 area6'
-}
-
-.pie1 {
-    grid-area: area1;
-}
-
-.pie2 {
-    grid-area: area2;
-}
-.pie3 {
-    grid-area: area3;
-}
-.pie4 {
-    grid-area: area4;
-}
-.pie5 {
-    grid-area: area5;
-}
-.pie6 {
-    grid-area: area6;
-}
 
 footer {
     color: beige;
