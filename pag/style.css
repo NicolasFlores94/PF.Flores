@@ -161,7 +161,6 @@ form {
 }
 
 #mapa {
-    color: white;
     text-align: center;
 }
 
@@ -186,38 +185,11 @@ form {
 
 @media (max-width:480px) {
     .pie {
-        margin-left: 100px;
-        display:grid;
-        grid-template-columns: repeat(1, auto);
-        grid-template-areas:
-        'area1' 
-        'area2' 
-        'area3'
-        'area4'
-        'area5'
-        'area6'
-        ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
     }
-
-    .pie1 {
-        grid-area: area1;
-    }
-    .pie2 {
-        grid-area: area3;
-    }
-    .pie3 {
-        grid-area: area5;
-    }
-    .pie4 {
-        grid-area: area2;
-    }
-    .pie5 {
-        grid-area: area4;
-    }
-    .pie6 {
-        grid-area: area6;
-    }
-
     #galery{
         display: flex;
         flex-direction: column;
