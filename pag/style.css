@@ -164,6 +164,11 @@ form {
     text-align: center;
 }
 
+#mapa iframe {
+    width: 350px;
+    height: 350px;
+}
+
 #dire1 {
     color: white;
     text-align: center;
@@ -183,7 +188,7 @@ form {
 }
 
 
-@media (max-width:480px) {
+@media (max-width:500px) {
     .pie {
         display: flex;
         flex-direction: column;
@@ -193,10 +198,6 @@ form {
     #galery{
         display: flex;
         flex-direction: column;
-    }
-
-    #mapa {
-        width: 30px;
     }
 
     h1 {
