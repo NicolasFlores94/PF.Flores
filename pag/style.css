@@ -210,11 +210,11 @@ form {
     }
 
     #mapa {
-        width: 50px;    
+        width: 30px;    
     }
 } 
 
-@media (max-width:780px) {
+@media (min-width:500px) AND (max-width:780px) {
     #galery {
         grid-template-columns: repeat(2, 2fr);
         grid-template-rows: repeat(auto, 500px);
