@@ -208,6 +208,10 @@ form {
     .sub {
         font-size: 25px;
     }
+
+    #mapa {
+        width: 50px;    
+    }
 } 
 
 @media (max-width:780px) {
