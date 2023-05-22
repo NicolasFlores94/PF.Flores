@@ -187,7 +187,6 @@ form {
     font-size: 20px;
 }
 
-
 @media (max-width:500px) {
     .pie {
         display: flex;
@@ -209,7 +208,7 @@ form {
         font-size: 25px;
     }
 
-    iframe {
+    #mapa iframe {
         width: 200px;
         height: 200px;    
     }
