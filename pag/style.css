@@ -209,7 +209,7 @@ form {
         font-size: 25px;
     }
 
-    #mapa iframe {
+    iframe {
         width: 200px;
         height: 200px;    
     }
