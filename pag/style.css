@@ -210,7 +210,8 @@ form {
     }
 
     #mapa iframe {
-        max-width: 25px;    
+        width: 200px;
+        height: 200px;    
     }
 } 
 
