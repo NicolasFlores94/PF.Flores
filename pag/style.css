@@ -213,8 +213,8 @@ form {
         font-size: 25px;
     }
 
-    #mapa {
-        width: 15px;    
+    #mapa iframe {
+        width: 25px;    
     }
 } 
 
