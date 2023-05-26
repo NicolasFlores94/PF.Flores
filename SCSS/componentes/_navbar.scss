@@ -1,0 +1,26 @@
+nav {
+    margin: 0px 5px 10px 5px;
+    border-bottom: 1px dotted bisque;
+
+    .nav-item:hover {
+        border: 1px solid white;
+        border-radius: 10px;
+        }
+
+    .nav-link {
+        color: lightyellow;
+        font-size: 20px;
+        font-weight: bold;
+        }
+
+    .navbar-brand {
+        color: lightyellow;
+        font-size: 20px;
+        font-weight: bold;
+        }
+
+    .navbar-brand:hover {
+        border: 1px solid white;
+        border-radius: 10px;
+        }
+}  

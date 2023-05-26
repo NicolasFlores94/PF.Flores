@@ -1,0 +1,14 @@
+#galeria_conteiner {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(3, 2fr);
+    column-gap: 10px;
+    grid-template-rows: repeat(4, 400px);
+    row-gap: 10px;
+    grid-template-areas: 
+    'area1 area2 area3'
+    'area4 area5 area6'
+    'area7 area8 area9'
+    'area10 area11 area12'
+    ;
+}

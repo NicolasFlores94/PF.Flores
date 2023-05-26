@@ -1,0 +1,15 @@
+ //import base
+    @import 'base/vars';
+    @import 'base/reset';
+
+//import componentes
+    @import 'componentes/navbar';
+    @import 'componentes/footer';
+    
+//imports layout
+    @import 'layout/index';
+    @import 'layout/carta';
+    @import 'layout/galeria';
+    @import 'layout/reservas';
+    @import 'layout/ubicacion';
+    @import 'layout/_mediaqueries';
