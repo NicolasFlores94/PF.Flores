@@ -1,0 +1,19 @@
+.foot_conteiner {
+    animation-name: animacion;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    
+        
+    @keyframes animacion {
+        0% {
+            transform: translateX(-150%);
+            opacity: 0;
+        }
+        
+        100% {
+            opacity: 1;
+        }
+    }
+}
+    

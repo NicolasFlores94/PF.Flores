@@ -73,11 +73,15 @@ body .carousel-item img {
 
 .menu_conteiner {
   color: black;
-  background-image: linear-gradient(to right, blue, yellow);
+  background-image: radial-gradient(circle, white, rgb(22, 165, 200));
   font-size: 30px;
   border: 1px solid white;
   margin: 30px;
   padding: 50px;
+}
+.menu_conteiner h3 {
+  text-align: center;
+  font-size: 40px;
 }
 
 #galeria_conteiner {
@@ -87,11 +91,67 @@ body .carousel-item img {
   column-gap: 10px;
   grid-template-rows: repeat(4, 400px);
   row-gap: 10px;
-  grid-template-areas: 
-  "area1 area2 area3"
-  "area4 area5 area6" 
-  "area7 area8 area9" 
-  "area10 area11 area12";
+  grid-template-areas: "area1 area2 area3" "area4 area5 area6" "area7 area8 area9" "area10 area11 area12";
+}
+#galeria_conteiner .c1 {
+  grid-area: area1;
+  width: 100%;
+  height: 100%;
+}
+#galeria_conteiner .c2 {
+  grid-area: area2;
+  width: 100%;
+  height: 100%;
+}
+#galeria_conteiner .c3 {
+  grid-area: area3;
+  width: 100%;
+  height: 100%;
+}
+#galeria_conteiner .c4 {
+  grid-area: area4;
+  width: 100%;
+  height: 100%;
+}
+#galeria_conteiner .c5 {
+  grid-area: area5;
+  width: 100%;
+  height: 100%;
+}
+#galeria_conteiner .c6 {
+  grid-area: area6;
+  width: 100%;
+  height: 100%;
+}
+#galeria_conteiner .c7 {
+  grid-area: area7;
+  width: 100%;
+  height: 100%;
+}
+#galeria_conteiner .c8 {
+  grid-area: area8;
+  width: 100%;
+  height: 100%;
+}
+#galeria_conteiner .c9 {
+  grid-area: area9;
+  width: 100%;
+  height: 100%;
+}
+#galeria_conteiner .c10 {
+  grid-area: area10;
+  width: 100%;
+  height: 100%;
+}
+#galeria_conteiner .c11 {
+  grid-area: area11;
+  width: 100%;
+  height: 100%;
+}
+#galeria_conteiner .c12 {
+  grid-area: area12;
+  width: 100%;
+  height: 100%;
 }
 
 .form_conteiner {
@@ -108,10 +168,6 @@ body .carousel-item img {
 #direccion_conteiner {
   text-align: center;
 }
-#direccion_conteiner iframe {
-  width: 350px;
-  height: 350px;
-}
 #direccion_conteiner .direccion_item1 {
   color: white;
   text-align: center;
@@ -126,6 +182,10 @@ body .carousel-item img {
   color: white;
   text-align: center;
   font-size: 20px;
+}
+#direccion_conteiner iframe {
+  width: 350px;
+  height: 350px;
 }
 
 @media (max-width: 500px) {
@@ -196,6 +256,21 @@ body .carousel-item img {
     border: none;
     font-size: 15px;
     margin-left: 20px;
+  }
+}
+.foot_conteiner {
+  animation-name: animacion;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+}
+@keyframes animacion {
+  0% {
+    transform: translateX(-150%);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
