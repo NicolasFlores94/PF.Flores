@@ -73,7 +73,7 @@ body .carousel-item img {
 
 .menu_conteiner {
   color: black;
-  background-color: grey;
+  background-image: linear-gradient(to right, blue, yellow);
   font-size: 30px;
   border: 1px solid white;
   margin: 30px;
@@ -87,7 +87,11 @@ body .carousel-item img {
   column-gap: 10px;
   grid-template-rows: repeat(4, 400px);
   row-gap: 10px;
-  grid-template-areas: "area1 area2 area3" "area4 area5 area6" "area7 area8 area9" "area10 area11 area12";
+  grid-template-areas: 
+  "area1 area2 area3"
+  "area4 area5 area6" 
+  "area7 area8 area9" 
+  "area10 area11 area12";
 }
 
 .form_conteiner {
