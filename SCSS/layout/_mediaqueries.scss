@@ -17,6 +17,10 @@
         width: 200px;
         height: 200px;    
     }
+
+    .form_conteiner {
+        padding: 0px;
+    }
 }
 
 @media (min-width:500px) AND (max-width:780px) {
@@ -32,8 +36,7 @@
         'area11 area12'
         ;
         padding: 30px;
-        } 
-        
+    
             .c1 {
                 grid-area: area1;
             }
@@ -84,12 +87,15 @@
                 width: 100%;
                 box-shadow: 2px 2px 2px 2px gray;
             }
-        
-        form {
-            text-align: left;
-            border: none;
-            font-size: 15px;
-            margin-left: 20px;
         }
+
+    .menu_conteiner {
+        text-align: left;
+        border: none;
+        font-size: 15px;
+        margin-left: 20px;
+    }
 }
+          
+
     
