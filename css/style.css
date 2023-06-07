@@ -272,7 +272,7 @@ body .carousel-item img {
   }
 }
 h2 .subtitulo {
-  nimation-name: animacion;
+  animation-name: animacion;
   animation-iteration-count: 1;
   animation-timing-function: linear;
   animation-duration: 2s;
