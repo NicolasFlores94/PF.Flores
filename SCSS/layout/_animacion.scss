@@ -1,19 +1,20 @@
-.subtitulo {
-    animation-name: animacion;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-duration: 2s;
+h2 {
+    .subtitulo {
+        nimation-name: animacion;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
     
         
-    @keyframes animacion {
-        0% {
-            transform: translateX(-150%);
-            opacity: 0;
-        }
+        @keyframes animacion {
+            0% {
+                transform: translateX(-150%);
+                opacity: 0;
+            }
         
-        100% {
-            opacity: 1;
+            100% {
+                opacity: 1;
+            }
         }
     }
 }
-    
