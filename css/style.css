@@ -271,7 +271,7 @@ body .carousel-item img {
     margin: 60px 300px 20px 170px;
   }
 }
-h2 .subtitulo {
+.foot_conteiner {
   animation-name: animacion;
   animation-iteration-count: 1;
   animation-timing-function: linear;
