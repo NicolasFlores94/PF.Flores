@@ -164,6 +164,9 @@ body .carousel-item img {
   padding: 25px;
   margin: 60px 300px 20px 300px;
 }
+.form_conteiner form input {
+  text-align: left;
+}
 
 #direccion_conteiner {
   text-align: center;
