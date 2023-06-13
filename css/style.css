@@ -226,12 +226,6 @@ body .horario p {
     width: 200px;
     height: 200px;
   }
-  .form_conteiner form {
-    border: none;
-    text-align: left;
-    font-size: 15px;
-    margin: 60px 300px 20px 50px;
-  }
 }
 @media (min-width: 500px) and (max-width: 780px) {
   #galeria_conteiner {
@@ -284,13 +278,6 @@ body .horario p {
     border: none;
     font-size: 20px;
     margin-left: 20px;
-  }
-  .form_conteiner form {
-    border: none;
-    text-align: left;
-    font-size: 20px;
-    padding: 20px;
-    margin: 60px 300px 20px 170px;
   }
 }
 .foot_conteiner {
