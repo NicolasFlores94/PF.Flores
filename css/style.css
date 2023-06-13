@@ -95,7 +95,7 @@ body .horario p {
 
 .menu_conteiner {
   color: black;
-  background-image: radial-gradient(circle, white, rgb(22, 165, 200));
+  background-image: radial-gradient(circle, white, grey 22, 165, 200);
   font-size: 30px;
   border: 1px solid white;
   margin: 30px;
