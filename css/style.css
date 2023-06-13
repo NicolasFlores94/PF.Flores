@@ -194,7 +194,7 @@ body .horario p {
   color: white;
   text-align: center;
   font-size: 50px;
-  padding: 30px;
+  margin-top: 80px;
 }
 #direccion_conteiner .direccion_item2 {
   color: white;
