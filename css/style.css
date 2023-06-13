@@ -176,6 +176,17 @@ body .horario p {
   height: 100%;
 }
 
+.form_conteiner {
+  color: white;
+}
+.form_conteiner form {
+  border: 1px dashed white;
+  text-align: center;
+  font-size: 20px;
+  padding: 25px;
+  margin: 60px 300px 20px 300px;
+}
+
 #direccion_conteiner {
   text-align: center;
 }
