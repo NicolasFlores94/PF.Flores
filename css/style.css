@@ -53,11 +53,11 @@ body h1 {
   text-align: center;
   margin: 100px 5px 50px 5px;
 }
-body .subtitulo {
+body h2 {
   color: lightgoldenrodyellow;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Dancing Script", cursive;
 }
 body .carousel-inner {
@@ -94,6 +94,7 @@ body .horario p {
 }
 
 h3 {
+  color: white;
   text-align: center;
   font-size: 40px;
 }
@@ -101,17 +102,23 @@ h3 {
 .menu_conteiner {
   color: white;
   background-color: black;
-  font-size: 30px;
   border: 1px solid white;
   margin: 30px;
   padding: 50px;
 }
 .menu_conteiner h4 {
   text-align: center;
-  font-size: 25px;
+  font-size: 40px;
 }
 .menu_conteiner p {
   text-align: center;
+  font-size: 25px;
+}
+.menu_conteiner .menu__items {
+  text-align: left;
+  margin-left: 250px;
+}
+.menu_conteiner span {
   font-size: 15px;
 }
 
@@ -304,7 +311,7 @@ h3 {
     width: 200px;
   }
 }
-.foot_conteiner {
+h2 {
   animation-name: animacion;
   animation-iteration-count: 1;
   animation-timing-function: linear;
