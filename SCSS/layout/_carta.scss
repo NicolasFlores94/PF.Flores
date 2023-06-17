@@ -1,13 +1,23 @@
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
 .menu_conteiner {
     color: white;
     background-color: black;
-    font-size: 30px;
     border: 1px solid white;
     margin: 30px;
     padding: 50px;
-    h3 {
+
+    h4 {
         text-align: center;
         font-size: 40px;
     }
+
+    p {
+        text-align: center;
+        font-size: 25px;
     }
-    
+}
