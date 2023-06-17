@@ -231,8 +231,9 @@ h3 {
     font-size: 60px;
     margin: 60px 5px 25px 5px;
   }
-  .subtitulo {
+  .h2 {
     font-size: 25px;
+    margin-left: 10px;
   }
   iframe {
     width: 200px;
@@ -246,6 +247,15 @@ h3 {
   }
   .form_conteiner form .mb-3 {
     width: 200px;
+  }
+  .menu_conteiner {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 5px;
+    padding: 5px;
+  }
+  .menu_conteiner .menu__items {
+    margin-left: 5px;
   }
 }
 @media (min-width: 500px) and (max-width: 780px) {
@@ -296,7 +306,6 @@ h3 {
   }
   .menu_conteiner {
     text-align: left;
-    border: none;
     font-size: 20px;
     margin-left: 20px;
   }
