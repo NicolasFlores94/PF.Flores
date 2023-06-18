@@ -92,6 +92,12 @@ body .horario {
 body .horario p {
   font-size: 25px;
 }
+body .card {
+  margin: 50px;
+}
+body .card .card-text {
+  text-align: center;
+}
 
 h3 {
   color: white;
