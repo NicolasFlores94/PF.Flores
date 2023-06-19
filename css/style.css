@@ -291,10 +291,10 @@ h3 {
     margin-left: 10px;
   }
   .card_conteiner .card-body1 {
-    margin-left: 100px;
+    margin-left: 50px;
   }
   .card_conteiner .card-body2 {
-    margin-left: 100px;
+    margin-left: 50px;
   }
 }
 @media (min-width: 500px) and (max-width: 780px) {
