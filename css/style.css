@@ -83,7 +83,9 @@ body .descripcion p {
 }
 body h4 {
   font-size: 40px;
-  margin: 40px;
+  color: white;
+  text-align: center;
+  padding: 30px;
 }
 body .horario {
   color: white;
@@ -92,11 +94,35 @@ body .horario {
 body .horario p {
   font-size: 25px;
 }
-body .card {
-  margin: 50px;
+body .card-body1 {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  width: 18rem;
+  margin-left: 200px;
 }
-body .card .card-text {
+body .card-body1 .card-title {
   text-align: center;
+  padding: 5px;
+}
+body .card-body1 .card-text {
+  text-align: center;
+  padding: 10px;
+}
+body .card-body2 {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  width: 18rem;
+  margin-left: 800px;
+}
+body .card-body2 .card-title {
+  text-align: center;
+  padding: 5px;
+}
+body .card-body2 .card-text {
+  text-align: center;
+  padding: 10px;
 }
 
 h3 {
@@ -264,6 +290,12 @@ h3 {
   .menu_conteiner .menu__items {
     margin-left: 10px;
   }
+  .card_conteiner .card-body1 {
+    margin-left: 100px;
+  }
+  .card_conteiner .card-body2 {
+    margin-left: 100px;
+  }
 }
 @media (min-width: 500px) and (max-width: 780px) {
   #galeria_conteiner {
@@ -290,8 +322,11 @@ h3 {
   #galeria_conteiner .c6 {
     grid-area: area6;
   }
-  #galeria_conteiner .c8 {
+  #galeria_conteiner .c7 {
     grid-area: area7;
+  }
+  #galeria_conteiner .c8 {
+    grid-area: area8;
   }
   #galeria_conteiner .c9 {
     grid-area: area9;
@@ -329,6 +364,9 @@ h3 {
   }
   .form_conteiner form .mb-3 {
     width: 200px;
+  }
+  .card_conteiner .card-body2 {
+    margin-left: 200px;
   }
 }
 h2 {

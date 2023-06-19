@@ -43,6 +43,15 @@
             margin-left: 10px;
         }
     }
+
+    .card_conteiner {
+        .card-body1{
+            margin-left: 100px;
+        }   
+        .card-body2{
+            margin-left: 100px;
+        }
+    }
 }
 
 @media (min-width:500px) AND (max-width:780px) {
@@ -83,8 +92,12 @@
                 grid-area: area6;
             }
         
-            .c8 {
+            .c7 {
                 grid-area: area7;
+            }
+
+            .c8 {
+                grid-area: area8;
             }
         
             .c9 {
@@ -135,7 +148,14 @@
             }  
         }
     }
+
+    .card_conteiner {
+
+        .card-body2{
+            margin-left: 200px;
+        }
+    }
 }
-          
+  
 
     

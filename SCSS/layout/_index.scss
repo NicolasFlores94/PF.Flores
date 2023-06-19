@@ -46,7 +46,9 @@ body {
 
     h4 {
         font-size: 40px;
-        margin: 40px;
+        color: white;
+        text-align:center;
+        padding: 30px;
     }
 
     .horario {
@@ -58,11 +60,38 @@ body {
         }
     }
 
-    .card {
-        margin: 50px;
+    .card-body1 {
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+        width: 18rem;
+        margin-left: 200px;
+
+        .card-title {
+            text-align: center;
+            padding: 5px;
+        }
 
         .card-text {
             text-align: center;
+            padding: 10px;
+        }
+    }
+
+    .card-body2 {
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+        width: 18rem;
+        margin-left: 800px;
+        .card-title {
+            text-align: center;
+            padding: 5px;
+        }
+
+        .card-text {
+            text-align: center;
+            padding: 10px;
         }
     }
 }
