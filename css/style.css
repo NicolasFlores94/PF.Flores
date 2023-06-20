@@ -288,6 +288,9 @@ h3 {
   .menu_conteiner .menu__items {
     margin-left: 10px;
   }
+  .card_conteiner {
+    max-width: 250px;
+  }
   .card_conteiner .card-body1 {
     margin-left: 50px;
   }
