@@ -5,18 +5,18 @@
     }
 
     h1 {
-        font-size: 60px;
-        margin: 60px 5px 25px 5px;
+        font-size: 80px;
+        margin-left:25px;
     }
 
     .h2 {
-        font-size: 25px;
+        font-size: 35px;
         margin-left: 10px;
         }
     
     iframe {
         width: 200px;
-        height: 200px;    
+        height: 200px;
     }
 
     .form_conteiner {
@@ -47,9 +47,11 @@
     .card_conteiner {
         .card-body1{
             margin-left: 50px;
+            width: 300px;       
         }   
         .card-body2{
             margin-left: 50px;
+            width: 300px;
         }
     }
 }
@@ -150,10 +152,19 @@
     }
 
     .card_conteiner {
+        max-width: 300px;
+        .card-body1{
+            width: 300px;       
+        }   
 
         .card-body2{
-            margin-left: 200px;
+            margin-left: 400px;
+            width: 300px;
         }
+    }
+
+    .carouselslide {
+        max-width: 300px;
     }
 }
   
