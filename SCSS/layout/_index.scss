@@ -5,14 +5,14 @@ body {
         font-size: 120px;
         color: $main-color;
         text-shadow: grey 7px 7px;
-        text-align:center;
-        margin: 100px 5px 50px 5px;
+        text-align: center;
+        margin-top: 80px;
     }
     
     h2 {
         color: lightgoldenrodyellow;
-        display: flex;
-        justify-content: center;
+        margin-top: 50px;
+        text-align:center;
         font-size: 50px;
         font-family: $font;
     }
@@ -64,7 +64,7 @@ body {
         color: black;
         background-color: white;
         border-radius: 5px;
-        width: 18rem;
+        width: 320px;
         margin-left: 200px;
 
         .card-title {
@@ -82,8 +82,9 @@ body {
         color: black;
         background-color: white;
         border-radius: 5px;
-        width: 18rem;
+        width: 320px;
         margin-left: 700px;
+        
         .card-title {
             text-align: center;
             padding: 5px;

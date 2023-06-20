@@ -5,13 +5,11 @@
     }
 
     h1 {
-        font-size: 80px;
-        margin-left:25px;
+        font-size: 50px;
     }
 
     .h2 {
-        font-size: 35px;
-        margin-left: 10px;
+        font-size: 25px;
         }
     
     iframe {
@@ -46,17 +44,15 @@
 
     .card_conteiner {
         .card-body1{
-            margin-left: 50px;
-            width: 300px;       
+            margin-left: 50px;   
         }   
         .card-body2{
             margin-left: 50px;
-            width: 300px;
         }
     }
 }
 
-@media (min-width:500px) AND (max-width:780px) {
+@media (min-width:500px) AND (max-width:801px) {
     #galeria_conteiner {
         grid-template-columns: repeat(2, 2fr);
         grid-template-rows: repeat(auto, 500px);
@@ -152,19 +148,14 @@
     }
 
     .card_conteiner {
-        max-width: 300px;
+
         .card-body1{
-            width: 300px;       
-        }   
-
-        .card-body2{
-            margin-left: 400px;
-            width: 300px;
+            margin-left: 100px;
         }
-    }
-
-    .carouselslide {
-        max-width: 300px;
+       
+        .card-body2{
+            margin-left: 350px;
+        }
     }
 }
   

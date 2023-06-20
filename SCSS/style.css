@@ -261,10 +261,10 @@ h3 {
     flex-direction: column;
   }
   h1 {
-    font-size: 50px;
+    font-size: 80px;
   }
   .h2 {
-    font-size: 25px;
+    font-size: 35px;
   }
   iframe {
     width: 200px;
@@ -289,10 +289,10 @@ h3 {
     margin-left: 10px;
   }
   .card_conteiner .card-body1 {
-    margin-left: 50px;
+    margin-left: 100px;
   }
   .card_conteiner .card-body2 {
-    margin-left: 50px;
+    margin-left: 100px;
   }
 }
 @media (min-width: 500px) and (max-width: 801px) {
@@ -363,11 +363,18 @@ h3 {
   .form_conteiner form .mb-3 {
     width: 200px;
   }
+  .card_conteiner {
+    max-width: 300px;
+  }
   .card_conteiner .card-body1 {
-    margin-left: 100px;
+    width: 300px;
   }
   .card_conteiner .card-body2 {
-    margin-left: 350px;
+    margin-left: 400px;
+    width: 300px;
+  }
+  .carouselslide {
+    max-width: 300px;
   }
 }
 h2 {
