@@ -290,7 +290,7 @@ h3 {
     margin-left: 10px;
   }
   .card_conteiner {
-    object-fit: cover;
+    max-width: 150px;
   }
   .card_conteiner .card-body1 {
     margin-left: 50px;
