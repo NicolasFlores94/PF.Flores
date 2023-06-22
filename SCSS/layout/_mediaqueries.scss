@@ -20,9 +20,10 @@
 
     .form_conteiner {
         form {
+            display: flex;
+            justify-content: center;
             border: none;
             font-size: 15px;
-            
             
             .mb-3 {
                 width: 200px;
