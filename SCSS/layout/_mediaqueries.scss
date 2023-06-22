@@ -24,12 +24,16 @@
             border: none;
             font-size: 15px;
             
+            .form-label {
+                text-align: center;
+            }
+
             .mb-3 {
                 width: 200px;
             }  
 
             button{
-                margin-left: 50px;
+                text-align: center;
             }
         }
     }
