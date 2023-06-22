@@ -3,20 +3,13 @@ body {
 
     h1 {
         font-size: 120px;
+        font-family: $font;
         color: $main-color;
         text-shadow: grey 7px 7px;
         text-align: center;
-        margin-top: 80px;
+        margin: 50px;
     }
     
-    h2 {
-        color: lightgoldenrodyellow;
-        margin-top: 50px;
-        text-align:center;
-        font-size: 50px;
-        font-family: $font;
-    }
-
     .carousel-inner {
         height: 800px;
         }
@@ -30,7 +23,7 @@ body {
         }
     }
 
-    h3 {
+    h2 {
         font-size: 50px;
         margin: 40px;
     }
@@ -44,7 +37,7 @@ body {
         }
     }
 
-    h4 {
+    h3 {
         font-size: 40px;
         color: white;
         text-align:center;

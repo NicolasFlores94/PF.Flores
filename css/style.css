@@ -48,17 +48,11 @@ body {
 }
 body h1 {
   font-size: 120px;
+  font-family: "Dancing Script", cursive;
   color: white;
   text-shadow: grey 7px 7px;
   text-align: center;
   margin-top: 80px;
-}
-body h2 {
-  color: lightgoldenrodyellow;
-  margin-top: 50px;
-  text-align: center;
-  font-size: 50px;
-  font-family: "Dancing Script", cursive;
 }
 body .carousel-inner {
   height: 800px;
@@ -70,7 +64,7 @@ body .carousel-item img {
   height: 800px;
   object-fit: cover;
 }
-body h3 {
+body h2 {
   font-size: 50px;
   margin: 40px;
 }
@@ -81,7 +75,7 @@ body .descripcion {
 body .descripcion p {
   font-size: 30px;
 }
-body h4 {
+body h3 {
   font-size: 40px;
   color: white;
   text-align: center;
@@ -125,7 +119,7 @@ body .card-body2 .card-text {
   padding: 10px;
 }
 
-h3 {
+h2 {
   color: white;
   text-align: center;
   font-size: 40px;
@@ -138,7 +132,7 @@ h3 {
   margin: 30px;
   padding: 50px;
 }
-.menu_conteiner h4 {
+.menu_conteiner h3 {
   text-align: center;
   font-size: 40px;
   color: gold;
